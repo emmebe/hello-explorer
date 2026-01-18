@@ -2,19 +2,26 @@
 body {
     background: rgb(54, 54, 54);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: rgb(200, 200, 200);
 }
 
 h1 {
     color:rgb(180, 192, 198)
 }
 
+h2 {
+    color:rgb(180, 192, 198)
+}
+
 p {
-    border-left: 1px dotted black;
+    border-left: 2px solid rgb(180, 192, 198);
+    padding-left: 5px;
 }
 
 nav {
     background-color:rgb(28, 28, 28)
 }
+
 nav a {
     color: rgb(180, 192, 198);
     text-decoration: none;
@@ -25,7 +32,7 @@ nav a {
 
 a.active {
     font-weight: bold;
-    color:aqua;
+    border: 1px solid aqua;
 }
 
 ul li a:hover {
@@ -38,4 +45,8 @@ nav ul {
     display: flex;
     list-style: none;
     overflow: hidden;
+}
+
+image {
+    width: 100%;
 }
