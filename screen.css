@@ -1,4 +1,41 @@
 /* Add screen styles below */
+body {
+    background: rgb(54, 54, 54);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+h1 {
+    color:rgb(180, 192, 198)
+}
+
+p {
+    border-left: 1px dotted black;
+}
+
+nav {
+    background-color:rgb(28, 28, 28)
+}
+nav a {
+    color: rgb(180, 192, 198);
+    text-decoration: none;
+    font-size: 24px;
+    display: inline-block;
+    padding: 10px;
+}
+
 a.active {
     font-weight: bold;
+    color:aqua;
+}
+
+ul li a:hover {
+    background-color: rgb(80, 80, 80);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    overflow: hidden;
 }
